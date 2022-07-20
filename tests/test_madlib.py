@@ -25,6 +25,7 @@ def test_merge():
     actual = merge("It was a {} and {} {}.", ("dark", "stormy", "night"))
     expected = "It was a dark and stormy night."
     assert actual == expected
+p
 
 
 @pytest.mark.skip("pending")
