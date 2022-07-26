@@ -1,5 +1,6 @@
 import re
 
+
 def welcome():
 
     print("""
@@ -15,34 +16,6 @@ def welcome():
 
 
 regex = r"(?<={).*?(?=})"
-# user_filler = []
-# unparsed_message = ""
-# def read_template(file_path):
-
-# with open("assets/example1.txt") as file:
-#     unparsed_message = file.read().strip()
-#     print(unparsed_message)
-
-# parts_of_speech = re.findall(regex, unparsed_message)
-# parsed_message = re.sub(regex,"",unparsed_message)
-# print(parsed_message)
-# print(parts_of_speech)
-
-# filled_message = parsed_message.format("dark", "stormy", "night")
-# print(filled_message)
-
-# for part in parts_of_speech:
-#     user_filler.append(input(f"{part} -> "))
-#
-# my_tuple = tuple(user_filler)
-#
-# print(my_tuple)
-#
-# def filled_message(list):
-#     filled_message = parsed_message.format(*list)
-#     print(filled_message)
-#
-# filled_message(my_tuple)
 
 
 def read_template(file_path):
